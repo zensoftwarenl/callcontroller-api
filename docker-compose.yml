@@ -1,0 +1,8 @@
+# Path: docker-compose.yml
+version: '3'
+services:
+  spring-boot-docker:
+    image: spring-boot-docker
+    build: .
+    ports:
+      - 8080:8080
